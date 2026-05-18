@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__queue-mcp__enqueue",
+      "mcp__queue-mcp__list_queue",
+      "mcp__queue-mcp__dequeue",
+      "PowerShell(netstat *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Stop-Process *)"
+    ]
+  }
+}

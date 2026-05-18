@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(\"C:\\\\MIDAS\\\\AhnD\\\\TGC\\\\github\\\\MCPQueue\\\\queue-mcp\\\\target\\\\release\\\\queue-mcp.exe\")",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Head *)",
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:3000/queue/size\" -TimeoutSec 3 -UseBasicParsing | Select-Object -ExpandProperty Content)",
+      "PowerShell(claude mcp *)"
+    ]
+  }
+}
