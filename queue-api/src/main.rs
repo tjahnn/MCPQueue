@@ -81,7 +81,7 @@ async fn main() {
         .route("/queue/size", get(size))
         .with_state(shared_queue);
 
-    let listener = tokio::net::TcpListener::bind("0.0.0.0:3001").await.unwrap();
-    println!("Queue API running on http://0.0.0.0:3001");
+    let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
+    println!("Queue API running on http://0.0.0.0:3000");
     axum::serve(listener, app).await.unwrap();
 }
